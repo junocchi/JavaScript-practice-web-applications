@@ -10,6 +10,10 @@ class CounterModel {
   increment() {
     this.counter++;
   }
+
+  decrement() {
+    this.counter--;
+  }
 }
 
 module.exports = CounterModel;
