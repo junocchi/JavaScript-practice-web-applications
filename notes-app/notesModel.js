@@ -1,5 +1,5 @@
 
-class Notes {
+class NotesModel {
   
   constructor(){
     this.allNotes = []; // @allNotes
@@ -18,6 +18,6 @@ class Notes {
   }
 }
 
-module.exports = Notes;
+module.exports = NotesModel;
 
 
