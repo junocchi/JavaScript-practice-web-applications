@@ -20,7 +20,7 @@ describe('Page view', () => {
     view.addParagraph()
     expect(document.querySelectorAll('p').length).toBe(3);
   });
-  it('clear all paragraphs', () => {
+  it('clears all paragraphs', () => {
     document.body.innerHTML = fs.readFileSync('./index.html');
 
     const view = new View();

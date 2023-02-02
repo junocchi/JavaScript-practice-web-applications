@@ -3,7 +3,7 @@ class MessageView {
     this.buttonEl = document.querySelector('#show-message-button');
 
     this.buttonEl.addEventListener('click', () => {
-       this.displayMessage();
+      this.displayMessage();
     });
   }
 
