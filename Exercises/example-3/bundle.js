@@ -15,6 +15,10 @@
         }
         displayMessage() {
           console.log("Thanks for clicking me!");
+          var divMessage = document.createElement("diMessage");
+          divMessage.id = "message";
+          divMessage.innerHTML = "This message displayed by JavaScript";
+          document.querySelector("#main-container").append(divMessage);
         }
       };
       module.exports = MessageView2;
